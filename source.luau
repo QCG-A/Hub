@@ -1,13 +1,3 @@
---[[
-    		Fatality-Dark Interface
-
-    Author: 4lpaca
-    License: MIT
-    Github: https://github.com/4lpaca-pin/CompKiller
---]]
-
---- Export Types ---
-
 export type cloneref = (target: Instance) -> Instance;
 
 export type Window = {
@@ -330,8 +320,8 @@ local Mouse = LocalPlayer:GetMouse();
 local CurrentCamera = workspace.CurrentCamera;
 
 local Compkiller = {
-	Version = '1.6',
-	Logo = "rbxassetid://120245531583106",
+	Version = '0.5',
+	Logo = "rbxassetid://12880558444",
 	Windows = {},
 	Scale = {
 		Window = UDim2.new(0, 456,0, 499),
@@ -343,9 +333,9 @@ local Compkiller = {
 };
 
 Compkiller.Colors = {
-	Highlight = Color3.fromRGB(17, 238, 253),
-	Toggle = Color3.fromRGB(14, 203, 213),
-	Risky = Color3.fromRGB(251, 255, 39),
+	Highlight = Color3.fromRGB(194, 194, 194),
+	Toggle = Color3.fromRGB(43, 255, 0),
+	Risky = Color3.fromRGB(0, 194, 255),
 	BGDBColor = Color3.fromRGB(22, 24, 29),
 	BlockColor = Color3.fromRGB(28, 29, 34),
 	StrokeColor = Color3.fromRGB(37, 38, 43),
