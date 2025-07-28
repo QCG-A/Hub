@@ -5116,7 +5116,7 @@ function Compkiller.new(Config : Window)
 	end);
 
 	CompKiller.Name = "u?name=compkiller_"..Compkiller:_RandomString();
-	CompKiller.Parent = CoreGui;
+	CompKiller.Parent = game:GetService("CoreGui"));
 	CompKiller.ResetOnSpawn = false
 	CompKiller.IgnoreGuiInset = true;
 	CompKiller.ZIndexBehavior = Enum.ZIndexBehavior.Global;
