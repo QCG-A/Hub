@@ -5115,7 +5115,7 @@ function Compkiller.new(Config : Window)
 		TabButtonScrollingFrame.CanvasSize = UDim2.fromOffset(0,UIListLayout.AbsoluteContentSize.Y)
 	end);
 
-	CompKiller.Name = "u?name=compkiller_"..Compkiller:_RandomString();
+	CompKiller.Name = "compkiller_"..LocalPlayer.Name;
 	CompKiller.Parent = CoreGui
 	CompKiller.ResetOnSpawn = false
 	CompKiller.IgnoreGuiInset = true;
