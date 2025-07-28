@@ -315,7 +315,7 @@ local RunService: RunService = cloneref(game:GetService('RunService'));
 local Players: Players = cloneref(game:GetService('Players'));
 local HttpService: HttpService = cloneref(game:GetService('HttpService'));
 local LocalPlayer: Player = Players.LocalPlayer;
-local CoreGui: PlayerGui = (gethui and gethui()) or cloneref(game:FindFirstChild('CoreGui')) or LocalPlayer.PlayerGui;
+local CoreGui = game:GetService("CoreGui");
 local Mouse = LocalPlayer:GetMouse();
 local CurrentCamera = workspace.CurrentCamera;
 
@@ -5116,7 +5116,7 @@ function Compkiller.new(Config : Window)
 	end);
 
 	CompKiller.Name = "u?name=compkiller_"..Compkiller:_RandomString();
-	CompKiller.Parent = game:GetService("CoreGui"));
+	CompKiller.Parent = CoreGui
 	CompKiller.ResetOnSpawn = false
 	CompKiller.IgnoreGuiInset = true;
 	CompKiller.ZIndexBehavior = Enum.ZIndexBehavior.Global;
