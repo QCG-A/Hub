@@ -1436,7 +1436,6 @@ end
 
 
 task.spawn(function()
-	if not getgenv().LoadedMobileUI == true then getgenv().LoadedMobileUI = true
 		local OpenUI = Instance.new("ScreenGui");
 		local ImageButton = Instance.new("ImageButton");
 		local UICorner = Instance.new("UICorner");
@@ -1482,7 +1481,6 @@ elseif closed == true then
 	tw3:Play()
 end
 		end)
-	end
 end)
 
 
