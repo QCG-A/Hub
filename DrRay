@@ -20,7 +20,6 @@ DRR["2"]["Name"] = [[TopBar]];
 
 -- DrRay.TopBar.UICorner
 DRR["3"] = Instance.new("UICorner", DRR["2"]);
-DRR["3"] = Instance.new("UIDragDetector", DRR["2"]);
 DRR["3"]["CornerRadius"] = UDim.new(0.10000000149011612, 0);
 
 -- DrRay.TopBar.ScrollingFrame
@@ -297,6 +296,9 @@ DRR["26"]["AspectRatio"] = 0.9836804866790771;
 -- DrRay.TopBar.UIAspectRatioConstraint
 DRR["27"] = Instance.new("UIAspectRatioConstraint", DRR["2"]);
 DRR["27"]["AspectRatio"] = 5.724700927734375;
+
+-- DrRay.TobBar.UIDragDetector
+DRR["3e1"] = Instance.new("UIDragDetector", DRR["2"]);
 
 -- DrRay.MainBar
 DRR["28"] = Instance.new("Frame", DRR["1"]);
