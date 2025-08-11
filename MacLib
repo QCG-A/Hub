@@ -3,7 +3,7 @@ repeat task.wait(0.25) until game:IsLoaded();
 task.spawn(function() 
 	pcall(function()
 		if game:GetService("CoreGui"):FindFirstChild("DrRay") then 
-			MacLib:Destroy()
+			macLib:Destroy()
 		end
 	end)
 end)
